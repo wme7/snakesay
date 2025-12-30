@@ -1,0 +1,17 @@
+[project]
+name = "snakesay"
+version = "0.1.0"
+description = "Snakesay: A test-app to learn about python packaging with UV build"
+readme = "README.md"
+authors = [
+    { name = "Manuel A. Diaz", email = "manuel.ade@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+ssay = "snakesay:main"
+
+[build-system]
+requires = ["uv_build>=0.9.21,<0.10.0"]
+build-backend = "uv_build"
