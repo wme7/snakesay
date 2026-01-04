@@ -1,7 +1,7 @@
 ![ci](https://github.com/wme7/snakesay/actions/workflows/code-quality.yaml/badge.svg)
 
 # snakesay
-An example-app to learn about python project configurations &amp; GitHub actions for CI/CD.
+An example-app to learn about project CI/CD using [UV](https://docs.astral.sh/uv/), [Ruff](https://docs.astral.sh/ruff/), [pyright](https://github.com/microsoft/pyright), [pytest](https://docs.pytest.org/en/stable/) &amp; GitHub actions.
 
 ```bash
 (snakesay) user@ubuntu$ ssay Sleep tight, little human-cub!
