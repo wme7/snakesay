@@ -17,3 +17,7 @@ def bubble(message: str) -> str:
 
 def say(message: str) -> str:
     return f"""{bubble(message)} {SNAKE}"""
+
+
+def generate_list() -> list[str]:
+    return 42
