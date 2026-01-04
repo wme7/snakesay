@@ -15,3 +15,8 @@ def test_snake_bubble():
 
 def test_snake_say():
     assert SNAKE_HI == snake.say("hi!")
+
+
+def test_main():
+    from snakesay import main
+    main()
