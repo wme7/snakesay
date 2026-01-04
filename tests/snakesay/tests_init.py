@@ -30,3 +30,4 @@ def test_parser():
 
 def test_main():
     main(["Hello, little human-cub!"])
+    main(["cow, where are you?"])
