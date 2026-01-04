@@ -28,6 +28,9 @@ def test_parser():
     assert args.message == ["yum!"]
 
 
-def test_main():
+def test_main_v1():
     main(["Hello, little human-cub!"])
+
+
+def test_main_v2():
     main(["cow, where are you?"])
