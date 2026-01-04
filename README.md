@@ -1,4 +1,4 @@
-![ci](https://github.com/wme7/snakesay/actions/workflows/ci.yaml/badge.svg)
+![ci](https://github.com/wme7/snakesay/actions/workflows/code-quality.yaml/badge.svg)
 
 # snakesay
 An example-app to learn about python project configurations &amp; GitHub actions for CI/CD.
