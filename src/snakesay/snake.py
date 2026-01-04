@@ -11,6 +11,14 @@ SNAKE = r"""
          (________)Oo°
 """
 
+COW = r"""
+  \   ^__^
+   \  (oo)\_______
+      (__)\       )\/\
+          ||----w |
+          ||     ||
+"""
+
 
 def generate_val() -> int:
     return 42
@@ -23,6 +31,10 @@ def bubble(message: str) -> str:
 
 def say(message: str) -> str:
     return f"""{bubble(message)} {SNAKE}"""
+
+
+def cowsay(message: str) -> str:
+    return f"""{bubble(message)} {COW}"""
 
 
 def parse_args(args=None):

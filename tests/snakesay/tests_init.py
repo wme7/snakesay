@@ -4,6 +4,7 @@ BUBBLE_HI = " _____\n( hi! )\n ‾‾‾‾‾"
 
 SNAKE_HI = " _____\n( hi! )\n ‾‾‾‾‾ \n  \\\n   \\    __\n    \\  {oo}\n       (__)\\\n         λ \\\\\n           _\\\\__\n          (_____)_\n         (________)Oo°\n"
 
+COW_HI = " _____\n( hi! )\n ‾‾‾‾‾ \n  \\   ^__^\n   \\  (oo)\\_______\n      (__)\\       )\\/\\\n          ||----w |\n          ||     ||\n"
 
 def test_generate_val():
     assert 42 == snake.generate_val()
@@ -15,6 +16,10 @@ def test_snake_bubble():
 
 def test_snake_say():
     assert SNAKE_HI == snake.say("hi!")
+
+
+def test_cow_say():
+    assert COW_HI == snake.cowsay("hi!")
 
 
 def test_parser():
