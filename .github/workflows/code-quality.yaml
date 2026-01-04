@@ -34,4 +34,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup
-      - run: uv run pytest -v --durations=1 --cov
+      - run: uv run pytest ./test/snakesay/*.py -v --durations=1 --cov
