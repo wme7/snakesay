@@ -34,7 +34,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup
-      - run: uv run pytest ./tests/snakesay/*.py -v --durations=1 --cov --cov_report=xml
+      - run: uv run pytest ./tests/snakesay/*.py -v --durations=1 --cov --cov-report=xml
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v5
         with:
