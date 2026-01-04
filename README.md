@@ -1,4 +1,6 @@
-![ci](https://github.com/wme7/snakesay/actions/workflows/code-quality.yaml/badge.svg)
+[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+![Actions status](https://github.com/wme7/snakesay/actions/workflows/code-quality.yaml/badge.svg)
 
 # snakesay
 An example-app to learn about project CI/CD using [UV](https://docs.astral.sh/uv/), [Ruff](https://docs.astral.sh/ruff/), [pyright](https://github.com/microsoft/pyright), [pytest](https://docs.pytest.org/en/stable/) &amp; GitHub actions.
