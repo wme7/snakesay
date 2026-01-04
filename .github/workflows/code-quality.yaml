@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        uses: ./.github/actions/setup
+      - uses: ./.github/actions/setup
       - run: uv lock --locked
