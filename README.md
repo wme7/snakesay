@@ -1,6 +1,8 @@
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 ![Actions status](https://github.com/wme7/snakesay/actions/workflows/code-quality.yaml/badge.svg)
+[![codecov](https://codecov.io/gh/wme7/snakesay/graph/badge.svg?token=45UCQFBIT1)](https://codecov.io/gh/wme7/snakesay)
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
 # snakesay
 An example-app to learn about project CI/CD using [UV](https://docs.astral.sh/uv/), [Ruff](https://docs.astral.sh/ruff/), [pyright](https://github.com/microsoft/pyright), [pytest](https://docs.pytest.org/en/stable/) &amp; GitHub actions.
