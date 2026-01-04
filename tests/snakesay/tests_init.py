@@ -19,4 +19,5 @@ def test_snake_say():
 
 def test_main():
     from snakesay import main
+
     main()
