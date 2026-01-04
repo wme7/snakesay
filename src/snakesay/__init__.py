@@ -1,12 +1,9 @@
-import sys
 from . import snake
 
 
-def main() -> None:
-    if len(sys.argv) > 1:
-        message = " ".join(sys.argv[1:])
-    else:
-        message = "Hello, World!!!"
+def main(args=None) -> None:
+    parsed_args = snake.parse_args(args)
+    message = " ".join(parsed_args.message)
     print(snake.say(message))
 
 

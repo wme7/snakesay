@@ -1,4 +1,4 @@
-from snakesay import snake
+from snakesay import snake, main
 
 BUBBLE_HI = " _____\n( hi! )\n ‾‾‾‾‾"
 
@@ -17,7 +17,10 @@ def test_snake_say():
     assert SNAKE_HI == snake.say("hi!")
 
 
-def test_main():
-    from snakesay import main
+def test_parser():
+    args = snake.parse_args(["yum!"])
+    assert args.message == ["yum!"]
 
-    main()
+
+def test_main():
+    main(["Hello, little human-cub!"])
