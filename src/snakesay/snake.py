@@ -12,7 +12,7 @@ SNAKE = r"""
 """
 
 
-def generate_list() -> int:
+def generate_val() -> int:
     return 42
 
 
