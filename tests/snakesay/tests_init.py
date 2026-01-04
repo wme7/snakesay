@@ -6,6 +6,7 @@ SNAKE_HI = " _____\n( hi! )\n ‾‾‾‾‾ \n  \\\n   \\    __\n    \\  {oo}\
 
 COW_HI = " _____\n( hi! )\n ‾‾‾‾‾ \n  \\   ^__^\n   \\  (oo)\\_______\n      (__)\\       )\\/\\\n          ||----w |\n          ||     ||\n"
 
+
 def test_generate_val():
     assert 42 == snake.generate_val()
 
